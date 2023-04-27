@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262BBD3229FA38D000E52AA5 /* TapppPanelLibraryRMGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262BBD3129FA38D000E52AA5 /* TapppPanelLibraryRMGTests.swift */; };
+		26667E24298BC2890082C5A7 /* TapppPanelLibrary_RMG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263C4CC929517E79005FE16A /* TapppPanelLibrary_RMG.framework */; };
+		B578FF3829BC33B20068B208 /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B578FF2E29BC33B20068B208 /* BaseClass.swift */; };
+		B578FF3929BC33B20068B208 /* TapppPanelLibraryRMG.h in Headers */ = {isa = PBXBuildFile; fileRef = B578FF3429BC33B20068B208 /* TapppPanelLibraryRMG.h */; };
+		B578FF3A29BC33B20068B208 /* TapppPanelLibraryRMG.swift in Sources */ = {isa = PBXBuildFile; fileRef = B578FF3529BC33B20068B208 /* TapppPanelLibraryRMG.swift */; };
+		B578FF3B29BC33B20068B208 /* TapppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B578FF3629BC33B20068B208 /* TapppContext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26667E25298BC2890082C5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 263C4CC029517E79005FE16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 263C4CC829517E79005FE16A;
+			remoteInfo = TapppPanelLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		262BBD3129FA38D000E52AA5 /* TapppPanelLibraryRMGTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapppPanelLibraryRMGTests.swift; sourceTree = "<group>"; };
+		263C4CC929517E79005FE16A /* TapppPanelLibrary_RMG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapppPanelLibrary_RMG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26667E20298BC2890082C5A7 /* TapppPanelLibrary-RMGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TapppPanelLibrary-RMGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B578FF2E29BC33B20068B208 /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		B578FF3029BC33B20068B208 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B578FF3329BC33B20068B208 /* tappp_ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tappp_ios.js; sourceTree = "<group>"; };
+		B578FF3429BC33B20068B208 /* TapppPanelLibraryRMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapppPanelLibraryRMG.h; sourceTree = "<group>"; };
+		B578FF3529BC33B20068B208 /* TapppPanelLibraryRMG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapppPanelLibraryRMG.swift; sourceTree = "<group>"; };
+		B578FF3629BC33B20068B208 /* TapppContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapppContext.swift; sourceTree = "<group>"; };
+		B5EC8487296E7B35005B6F99 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		B5EC8488296E7B35005B6F99 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B5EC8489296E7B35005B6F99 /* serve.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = serve.json; sourceTree = "<group>"; };
+		B5EC848A296E7B35005B6F99 /* favicon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favicon-16.png"; sourceTree = "<group>"; };
+		B5EC848B296E7B35005B6F99 /* asset-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "asset-manifest.json"; sourceTree = "<group>"; };
+		B5EC849B296E7B35005B6F99 /* apple-touch-icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-180.png"; sourceTree = "<group>"; };
+		B5EC849D296E7B35005B6F99 /* chrome-icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrome-icon-512.png"; sourceTree = "<group>"; };
+		B5EC849E296E7B35005B6F99 /* chrome-icon-192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrome-icon-192.png"; sourceTree = "<group>"; };
+		B5EC849F296E7B35005B6F99 /* chrome-icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrome-icon-144.png"; sourceTree = "<group>"; };
+		B5EC84A1296E7B35005B6F99 /* apple-touch-startup-image-1125x2436.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-1125x2436.png"; sourceTree = "<group>"; };
+		B5EC84A2296E7B35005B6F99 /* apple-touch-startup-image-1242x2688.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-1242x2688.png"; sourceTree = "<group>"; };
+		B5EC84A3296E7B35005B6F99 /* apple-touch-startup-image-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-640x1136.png"; sourceTree = "<group>"; };
+		B5EC84A4296E7B35005B6F99 /* apple-touch-startup-image-1668x2388.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-1668x2388.png"; sourceTree = "<group>"; };
+		B5EC84A5296E7B35005B6F99 /* apple-touch-startup-image-828x1792.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-828x1792.png"; sourceTree = "<group>"; };
+		B5EC84A6296E7B35005B6F99 /* apple-touch-startup-image-1242x2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-1242x2208.png"; sourceTree = "<group>"; };
+		B5EC84A7296E7B35005B6F99 /* apple-touch-startup-image-750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-750x1334.png"; sourceTree = "<group>"; };
+		B5EC84A8296E7B35005B6F99 /* apple-touch-startup-image-1668x2224.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-1668x2224.png"; sourceTree = "<group>"; };
+		B5EC84A9296E7B35005B6F99 /* apple-touch-startup-image-1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-1536x2048.png"; sourceTree = "<group>"; };
+		B5EC84AA296E7B35005B6F99 /* apple-touch-startup-image-2048x2732.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-2048x2732.png"; sourceTree = "<group>"; };
+		B5EC84AB296E7B35005B6F99 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		B5EC84AC296E7B35005B6F99 /* favicon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favicon-32.png"; sourceTree = "<group>"; };
+		B5EC84AE296E7B35005B6F99 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		B5EC84AF296E7B35005B6F99 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		B5EC84B0296E7B35005B6F99 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		B5EC84B1296E7B35005B6F99 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		B5EC84B2296E7B35005B6F99 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		B5EC84B3296E7B35005B6F99 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		B5EC84B4296E7B35005B6F99 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		B5EC84B5296E7B35005B6F99 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		B5EC84B6296E7B35005B6F99 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		B5EC84B7296E7B35005B6F99 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		B5EC84B8296E7B35005B6F99 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		B5EC84B9296E7B35005B6F99 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263C4CC629517E79005FE16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26667E1D298BC2890082C5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26667E24298BC2890082C5A7 /* TapppPanelLibrary_RMG.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263C4CBF29517E79005FE16A = {
+			isa = PBXGroup;
+			children = (
+				B578FF2D29BC33B20068B208 /* TapppPanelLibraryRMG */,
+				26667E21298BC2890082C5A7 /* TapppPanelLibraryRMGTests */,
+				263C4CCA29517E79005FE16A /* Products */,
+				B556418129AE572700B78E5B /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		263C4CCA29517E79005FE16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263C4CC929517E79005FE16A /* TapppPanelLibrary_RMG.framework */,
+				26667E20298BC2890082C5A7 /* TapppPanelLibrary-RMGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26667E21298BC2890082C5A7 /* TapppPanelLibraryRMGTests */ = {
+			isa = PBXGroup;
+			children = (
+				262BBD3129FA38D000E52AA5 /* TapppPanelLibraryRMGTests.swift */,
+			);
+			path = TapppPanelLibraryRMGTests;
+			sourceTree = "<group>";
+		};
+		B556418129AE572700B78E5B /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC84A9296E7B35005B6F99 /* apple-touch-startup-image-1536x2048.png */,
+				B5EC849F296E7B35005B6F99 /* chrome-icon-144.png */,
+				B5EC849B296E7B35005B6F99 /* apple-touch-icon-180.png */,
+				B5EC84A2296E7B35005B6F99 /* apple-touch-startup-image-1242x2688.png */,
+				B5EC84B0296E7B35005B6F99 /* Entypo.ttf */,
+				B5EC84A5296E7B35005B6F99 /* apple-touch-startup-image-828x1792.png */,
+				B5EC849E296E7B35005B6F99 /* chrome-icon-192.png */,
+				B5EC84B3296E7B35005B6F99 /* AntDesign.ttf */,
+				B5EC84AB296E7B35005B6F99 /* manifest.json */,
+				B5EC84AC296E7B35005B6F99 /* favicon-32.png */,
+				B5EC84A7296E7B35005B6F99 /* apple-touch-startup-image-750x1334.png */,
+				B5EC84A1296E7B35005B6F99 /* apple-touch-startup-image-1125x2436.png */,
+				B5EC84B7296E7B35005B6F99 /* FontAwesome.ttf */,
+				B5EC84AE296E7B35005B6F99 /* Fontisto.ttf */,
+				B5EC84AA296E7B35005B6F99 /* apple-touch-startup-image-2048x2732.png */,
+				B5EC84B5296E7B35005B6F99 /* Ionicons.ttf */,
+				B5EC84AF296E7B35005B6F99 /* Feather.ttf */,
+				B5EC8488296E7B35005B6F99 /* index.html */,
+				B5EC849D296E7B35005B6F99 /* chrome-icon-512.png */,
+				B5EC848B296E7B35005B6F99 /* asset-manifest.json */,
+				B5EC84B4296E7B35005B6F99 /* Foundation.ttf */,
+				B5EC84A4296E7B35005B6F99 /* apple-touch-startup-image-1668x2388.png */,
+				B5EC84A6296E7B35005B6F99 /* apple-touch-startup-image-1242x2208.png */,
+				B5EC848A296E7B35005B6F99 /* favicon-16.png */,
+				B5EC84B6296E7B35005B6F99 /* FontAwesome5_Solid.ttf */,
+				B5EC8487296E7B35005B6F99 /* favicon.ico */,
+				B5EC84B1296E7B35005B6F99 /* FontAwesome5_Brands.ttf */,
+				B5EC84A3296E7B35005B6F99 /* apple-touch-startup-image-640x1136.png */,
+				B5EC84B2296E7B35005B6F99 /* MaterialCommunityIcons.ttf */,
+				B5EC84B9296E7B35005B6F99 /* MaterialIcons.ttf */,
+				B5EC84B8296E7B35005B6F99 /* SimpleLineIcons.ttf */,
+				B5EC8489296E7B35005B6F99 /* serve.json */,
+				B5EC84A8296E7B35005B6F99 /* apple-touch-startup-image-1668x2224.png */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		B578FF2D29BC33B20068B208 /* TapppPanelLibraryRMG */ = {
+			isa = PBXGroup;
+			children = (
+				B578FF2E29BC33B20068B208 /* BaseClass.swift */,
+				B578FF2F29BC33B20068B208 /* dist */,
+				B578FF3429BC33B20068B208 /* TapppPanelLibraryRMG.h */,
+				B578FF3529BC33B20068B208 /* TapppPanelLibraryRMG.swift */,
+				B578FF3629BC33B20068B208 /* TapppContext.swift */,
+			);
+			path = TapppPanelLibraryRMG;
+			sourceTree = "<group>";
+		};
+		B578FF2F29BC33B20068B208 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				B578FF3029BC33B20068B208 /* index.html */,
+				B578FF3329BC33B20068B208 /* tappp_ios.js */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		263C4CC429517E79005FE16A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B578FF3929BC33B20068B208 /* TapppPanelLibraryRMG.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		263C4CC829517E79005FE16A /* TapppPanelLibrary-RMG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263C4CD029517E79005FE16A /* Build configuration list for PBXNativeTarget "TapppPanelLibrary-RMG" */;
+			buildPhases = (
+				263C4CC429517E79005FE16A /* Headers */,
+				263C4CC529517E79005FE16A /* Sources */,
+				263C4CC629517E79005FE16A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TapppPanelLibrary-RMG";
+			productName = TapppPanelLibrary;
+			productReference = 263C4CC929517E79005FE16A /* TapppPanelLibrary_RMG.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26667E1F298BC2890082C5A7 /* TapppPanelLibrary-RMGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26667E29298BC2890082C5A7 /* Build configuration list for PBXNativeTarget "TapppPanelLibrary-RMGTests" */;
+			buildPhases = (
+				26667E1C298BC2890082C5A7 /* Sources */,
+				26667E1D298BC2890082C5A7 /* Frameworks */,
+				26667E1E298BC2890082C5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26667E26298BC2890082C5A7 /* PBXTargetDependency */,
+			);
+			name = "TapppPanelLibrary-RMGTests";
+			productName = TapppPanelLibraryTests;
+			productReference = 26667E20298BC2890082C5A7 /* TapppPanelLibrary-RMGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263C4CC029517E79005FE16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					263C4CC829517E79005FE16A = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					26667E1F298BC2890082C5A7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 263C4CC329517E79005FE16A /* Build configuration list for PBXProject "TapppPanelLibrary-RMG" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 263C4CBF29517E79005FE16A;
+			productRefGroup = 263C4CCA29517E79005FE16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263C4CC829517E79005FE16A /* TapppPanelLibrary-RMG */,
+				26667E1F298BC2890082C5A7 /* TapppPanelLibrary-RMGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26667E1E298BC2890082C5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263C4CC529517E79005FE16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B578FF3A29BC33B20068B208 /* TapppPanelLibraryRMG.swift in Sources */,
+				B578FF3B29BC33B20068B208 /* TapppContext.swift in Sources */,
+				B578FF3829BC33B20068B208 /* BaseClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26667E1C298BC2890082C5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262BBD3229FA38D000E52AA5 /* TapppPanelLibraryRMGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26667E26298BC2890082C5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 263C4CC829517E79005FE16A /* TapppPanelLibrary-RMG */;
+			targetProxy = 26667E25298BC2890082C5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		263C4CCE29517E79005FE16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		263C4CCF29517E79005FE16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		263C4CD129517E79005FE16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.TapppPanelLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		263C4CD229517E79005FE16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.TapppPanelLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26667E27298BC2890082C5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.TapppPanelLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26667E28298BC2890082C5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.TapppPanelLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		263C4CC329517E79005FE16A /* Build configuration list for PBXProject "TapppPanelLibrary-RMG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263C4CCE29517E79005FE16A /* Debug */,
+				263C4CCF29517E79005FE16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263C4CD029517E79005FE16A /* Build configuration list for PBXNativeTarget "TapppPanelLibrary-RMG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263C4CD129517E79005FE16A /* Debug */,
+				263C4CD229517E79005FE16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26667E29298BC2890082C5A7 /* Build configuration list for PBXNativeTarget "TapppPanelLibrary-RMGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26667E27298BC2890082C5A7 /* Debug */,
+				26667E28298BC2890082C5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 263C4CC029517E79005FE16A /* Project object */;
+}
