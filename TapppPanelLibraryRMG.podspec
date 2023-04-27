@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TapppPanelLibraryRMG"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = "This will be test description for inmplememting pod file."
@@ -17,11 +17,11 @@ Pod::Spec.new do |spec|
   spec.source_files  = "TapppPanelLibraryRMG/**/*.{h,m,swift}"
   spec.resources     = "TapppPanelLibraryRMG/**/*.{png, json, html, ico, map, ttf, js}"
   spec.resource_bundles = {
-    'dist' => ['TapppPanelLibrary/dist/*.js',
-               'TapppPanelLibrary/dist/*.txt',
-               'TapppPanelLibrary/dist/*.ttf',
-               'TapppPanelLibrary/dist/*.map',
-               'TapppPanelLibrary/dist/*.html']
+    'dist' => ['TapppPanelLibraryRMG/dist/*.js',
+               'TapppPanelLibraryRMG/dist/*.txt',
+               'TapppPanelLibraryRMG/dist/*.ttf',
+               'TapppPanelLibraryRMG/dist/*.map',
+               'TapppPanelLibraryRMG/dist/*.html']
 
   }
 end
